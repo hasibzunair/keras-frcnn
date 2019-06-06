@@ -1,3 +1,5 @@
+'''Trains fasterrcnn using VGG backbone on the Pascal BOC 2012 dataset'''
+
 import os
 import cv2
 import xml.etree.ElementTree as ET
@@ -10,8 +12,8 @@ def get_data(input_path):
 	class_mapping = {}
 
 	visualise = False
-
-	data_paths = [os.path.join(input_path,s) for s in ['VOC2007', 'VOC2012']]
+    
+	data_paths = [os.path.join(input_path, 'VOC2012')] #[os.path.join(input_path,s) for s in ['VOC2007', 'VOC2012']]
 	
 
 	print('Parsing annotation files')

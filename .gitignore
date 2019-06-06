@@ -1,3 +1,13 @@
+# My git ignores
+datasets/
+weights/
+__pycache__/
+.ipynb_checkpoints/
+
+*.pickle
+*.h5
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
