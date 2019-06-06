@@ -1,6 +1,6 @@
 # My git ignores
 datasets/
-weights/
+model/
 __pycache__/
 .ipynb_checkpoints/
 

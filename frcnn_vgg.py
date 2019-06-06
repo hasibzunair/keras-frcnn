@@ -190,7 +190,7 @@ print("This has layers of number", len(model_all.layers))
     #print(layer.trainable)
 
 # Train with this script
-# python train_frcnn.py -p datasets/ --input_weight_path model/model.h5
+# python frcnn_vgg.py -p datasets/ --input_weight_path model/vgg16.h5
 
 '''
 

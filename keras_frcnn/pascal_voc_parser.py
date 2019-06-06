@@ -1,5 +1,3 @@
-'''Trains fasterrcnn using VGG backbone on the Pascal BOC 2012 dataset'''
-
 import os
 import cv2
 import xml.etree.ElementTree as ET
